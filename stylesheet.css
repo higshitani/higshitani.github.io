@@ -78,7 +78,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(14, 21, 43, 0.9);
+  background-color: rgba(14, 21, 43, 1);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -269,4 +269,13 @@ footer {
   .message-wrapper .btn {
     width: 100%;
   }
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-instagram:before {
+  content: "\ea92";
 }
