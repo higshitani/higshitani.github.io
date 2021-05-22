@@ -190,6 +190,9 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  height: 130px;
+  width: 100%;
+  background-color: rgba(14, 21, 43, 1);
 }
 
 .menu-icon {
@@ -216,7 +219,7 @@ footer {
 
   footer {
     text-align: center;
-    height: 65px;
+    height: 130px;
     width: 100%;
     background-color: rgba(14, 21, 43, 1);
     position :fixed;
