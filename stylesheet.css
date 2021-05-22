@@ -279,15 +279,6 @@ footer {
     width: 100%;
   }
 }
-.icon-facebook:before {
-  content: "\ea91";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-instagram:before {
-  content: "\ea92";
-}
 
 /* ボタン全体 */
 .flowbtn17{
