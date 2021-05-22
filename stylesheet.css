@@ -216,6 +216,12 @@ footer {
 
   footer {
     text-align: center;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(14, 21, 43, 1);
+    position :fixed;
+    top: 0;
+    z-index: 10;
   }
 }
 
@@ -278,4 +284,67 @@ footer {
 }
 .icon-instagram:before {
   content: "\ea92";
+}
+
+/* ボタン全体 */
+.flowbtn17{
+border-radius:50%;
+position:relative;
+display:inline-block;
+width:50px;
+height:50px;
+font-size:30px;
+text-decoration:none;
+transition:.5s;
+background-color:#444;
+color:#fff;
+}
+/* ボタンマウスホバー時のテキスト指定 */
+.flowbtn17:hover{
+text-decoration:none;
+}
+/* アイコンをど真ん中に */
+.flowbtn17 i{
+position:absolute;
+top:50%;
+left:50%;
+-ms-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%);
+}
+/* Twitterマウスホバー時 */
+.flowbtn17.fl_tw2:hover{
+background:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+}
+/* Instagramマウスホバー時 */
+.flowbtn17.insta_btn2:hover{
+background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+}
+/* Facebookマウスホバー時 */
+.flowbtn17.fl_fb2:hover{
+background:-webkit-linear-gradient(top, #5c80c6 0%, #34528c 74%);
+background:linear-gradient(to bottom, #5c80c6 0%, #34528c 74%);
+}
+/* YouTubeマウスホバー時 */
+.flowbtn17.fl_yu2:hover{
+background:linear-gradient(135deg, #f5515f 0%,#c9293c 100%);
+}
+/* LINEマウスホバー時 */
+.flowbtn17.fl_li2:hover{
+background: linear-gradient(135deg, #3a9278 0%,#00c300 100%);
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti2{
+padding:0!important;
+}
+/* ボタン全体の位置 */
+.snsbtniti2{
+display:flex;
+flex-flow:row wrap;
+}
+/* ボタン同士の余白 */
+.snsbtniti2 li{
+flex:0 0 48%;
+text-align:center !important;
 }
