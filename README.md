@@ -1,3 +1,3 @@
 # higshitani.github.io
-my first github html
 https://higshitani.github.io/
+https://www.w3schools.com/html/html_examples.asp
